@@ -14,7 +14,7 @@ defmodule Examples.Modules.Two do
     "Hello #{name}"
   end
 
-  # \\ gives fault (value to use if no argument is passed in)
+  # \\ gives default (value to use if no argument is passed in)
   def hi(name \\ "Reader") do
     "Hi #{name}"
   end
